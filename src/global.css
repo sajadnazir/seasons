@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul,li{
+    list-style: none;
+}
+
+.navbar{
+    background: #00695C;
+    color: #fff;
+    padding: 20px 20px;
+}
+
+.navbar ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
